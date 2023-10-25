@@ -12,9 +12,9 @@ public delegate void MqttDataReceivedCallback(ModData data);
 public class MqttHandler : MonoBehaviour
 {
     [SerializeField]
-    private string _mqttHost = "127.0.0.1";
+    //private string _mqttHost = "127.0.0.1";
 
-    //private string _mqttHost = "192.168.0.183";
+    private string _mqttHost = "192.168.0.183";
 
     [SerializeField]
     private static string _baseTopic = "world/mesh/1";
